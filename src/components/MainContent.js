@@ -32,20 +32,24 @@ const cardData = [
   {
     category: 'About',
     description: `
-    <p>Xins Lab is a dynamic team of environmental health scientists dedicated to understanding the broad impact of environmental exposures on health outcomes across different life stages. By combining expertise in biology, bioinformatics, and chemistry, we explore how exposures—especially during prenatal development—affect lung development, cellular resilience, and metabolism.</p>
+    <p>Our Lab is a dynamic team of environmental health scientists 
+dedicated to understanding the broad impact of environmental exposures 
+on health outcomes across different life stages. With combined expertise in biology, bioinformatics, and chemistry, we 
+study how exposures—especially during prenatal development—affect lung development, cellular resilience, and metabolism.</p>
     
-    <p>Our research approach integrates traditional scientific methods with advanced computational tools to reveal new biological insights. Since our founding in 2023, Xins Lab has actively participated in multiple projects and grants, focusing on areas such as:</p>
+    <p>Our research approach integrates traditional scientific methods with advanced multi-omics and computational tools to reveal new biological insights. Since 2023, our Lab has actively participated in multiple projects and grants, focusing on areas such as:</p>
     
     <ul>
         <li><strong>Lung Development Research</strong>: Investigating how environmental factors shape lung health from early stages.</li>
         <li><strong>Omics Data Analysis</strong>: Creating cutting-edge tools to analyze complex data.</li>
         <li><strong>Network Construction</strong>: Building networks to understand the relationships within biological systems.</li>
         <li><strong>Cell Type-Specific Metabolism</strong>: Exploring metabolic changes at the cellular level.</li>
+        <li><strong>Exposome Research</strong>: Characterizing exposure profiles at ‘omic scale and the link between early-life exposure and health risk of later-life and future generations.
     </ul>
 
     <p>Our lab collaborates with leading institutions and industry partners globally, pushing the boundaries of environmental health research.</p>
 
-    <p><strong>Current Opening:</strong> We are seeking a postdoctoral researcher to join our innovative team and contribute to our groundbreaking projects in environmental health science.</p>
+    <p><strong>Current Opening:</strong> We are seeking a postdoctoral researcher to join our team and contribute to our innovative projects in environmental health science.</p>
  `,
     image: aboutimage,
   },
@@ -89,10 +93,9 @@ const cardData = [
     category: 'People',
     name: 'Jackie Korn',
     role: 'Undergraduate researcher',
-    bio: 'Oversees lab operations and collaborations.',
+    bio: 'Aspiring Physician-Scientists.',
     image: jackie,
     details: `
-      <p>Academic training/interest: Aspiring Physician-Scientists</p>
       <p>Alternate reality career: CIA Agent</p>
     `,
   },
@@ -153,6 +156,39 @@ const cardData = [
     `,
   },
   // Publications (added more entries)
+  // 2025 Publications
+  {
+    category: 'Publications',
+    title:
+      'Rethinking the rise of early onset gastrointestinal cancers: a call to action.',
+    authors: [
+      'Weinberg BA',
+      'Murphy CC',
+      'Freyer DR',
+      'Greathouse KL',
+      'Blancato JK',
+      'Stoffel EM',
+      'Drewes JL',
+      'Blaes A',
+      'Salsman JM',
+      'You YN',
+      'Arem H',
+      'Mukherji R',
+      'Kanth P',
+      'Hu X',
+      'Fabrizio A',
+      'Hartley ML',
+      'Giannakis M',
+      'Marshall JL'
+    ],
+    date: '2025',
+    abstract: '',
+    details: `
+      <p>Published in <em>JNCI Cancer Spectr</em>, 2025 Jan 15:pkaf002.</p>
+      <p>DOI: 10.1093/jncics/pkaf002</p>
+      <p>Epub ahead of print. PMID: 39814070.</p>
+    `,
+  },
   // 2024 Publications
   {
     category: 'Publications',
